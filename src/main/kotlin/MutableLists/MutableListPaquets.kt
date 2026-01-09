@@ -1,6 +1,6 @@
 package org.example.MutableLists
 
-import org.example.Paquet
+import org.example.Data_Clases.Paquet
 
 
 var paquet: MutableList<Paquet> = mutableListOf()

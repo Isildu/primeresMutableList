@@ -1,4 +1,4 @@
-package org.example
+package org.example.Data_Clases
 
 data class Paquet(var destinatari: String,
                   var direccioEntrega: String,

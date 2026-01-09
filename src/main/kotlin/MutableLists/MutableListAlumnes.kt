@@ -2,8 +2,8 @@ package org.example.MutableLists
 
 var alumnes: MutableList<String> = mutableListOf()
 
-fun afegir(nom: String) {
-    alumnes.add(nom)
+fun afegir(nom: String): Boolean {
+    return alumnes.add(nom)
 }
 
 fun eliminar(nom: String) {
@@ -11,10 +11,11 @@ fun eliminar(nom: String) {
 }
 
 fun comprovar(nom: String): Boolean {
+    var validacio = false
     for (valor in alumnes){
-        if (nom == valor) return true
+        if (nom == valor) validacio = true
     }
-    return false
+    return validacio
 }
 
 fun mostrar(): MutableList<String> {

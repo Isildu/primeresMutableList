@@ -31,8 +31,8 @@ fun menu() {
                     println("Aquest nom ja existeix en la llista")
                 }
                 else{
-                    afegir(nom.lowercase())
-                    println("El nom ${nom.lowercase()} a sigut afegit correctament")
+                    if (afegir(nom.lowercase())) println("El nom ${nom.lowercase()} a sigut afegit correctament")
+                    else println("El nom no se a pogut introduir")
                 }
             }
             2 -> {
