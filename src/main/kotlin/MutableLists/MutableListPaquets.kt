@@ -35,7 +35,7 @@ fun mostrarPPendents(){
     if (cont == 0) println("tots els paquets entregats")
 }
 fun entregat(num: Int){
-
+    paquet[num].dataEntrega = LocalDate.now().toString()
 }
 /*
 fun comprovarP(nom: String): Boolean {
