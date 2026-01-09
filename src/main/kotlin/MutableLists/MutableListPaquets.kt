@@ -34,6 +34,9 @@ fun mostrarPPendents(){
     }
     if (cont == 0) println("tots els paquets entregats")
 }
+fun entregat(num: Int){
+
+}
 /*
 fun comprovarP(nom: String): Boolean {
     for (valor in alumnes){

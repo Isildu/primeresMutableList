@@ -42,6 +42,7 @@ fun menuP() {
             4 -> {
                 if (tamanyP() > 0){
                     id = readInt("Donguim la id del paquet entregat (ex. 1)", "Numero incorrecta", "el numero de las id disponibles  el numero 1 es la minima i el ${tamanyP()} es el mes gran", 1, tamanyP())
+                    entregat(id)
                 }
             }
             5 -> println("Hi ha un total de ${tamany()} noms a la llista.")
